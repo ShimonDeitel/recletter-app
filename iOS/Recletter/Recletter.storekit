@@ -1,0 +1,40 @@
+{
+  "identifier" : "RecletterProducts",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "recletter_group",
+      "localizations" : [],
+      "name" : "Recletter Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "recletter_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Thank-you reminder and deadline alerts",
+              "displayName" : "Recletter Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.recletter.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Recletter Pro Monthly",
+          "subscriptionGroupID" : "recletter_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
